@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700;1,800&family=Nunito:wght@300;400;500;600;700&family=Open+Sans:wght@300&family=Roboto:wght@300;700&display=swap');
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.logo {
+    width: 30%;
+}
+
+.nav {
+    width: 70%;
+    text-align: end;
+    padding-right: 30px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303031;
+    padding: 25px;
+}
+
+a #s {
+    color: aqua;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 30%;
+    padding-left: 40px;
+
+
+}
+
+.container h2 {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000000;
+
+
+}
+
+.container button {
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 40px;
+    color: #FFFFFF;
+    width: 150px;
+    background: #71A894;
+    border-radius: 8px;
+    margin-top: 30px;
+
+}
+
+.container p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #7D7987;
+
+}
+
+.aside {
+    width: 70%;
+    text-align: center;
+}
+
+.title {
+    padding-top: 30px;
+    width: 100%;
+
+
+}
+
+.div {
+    text-align: center;
+    width: 70%;
+    margin-left: 90px;
+}
+
+.div h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: center;
+}
+
+.div p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+
+}
+
+.card1,
+.card2,
+.card3 {
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 26%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(241, 36, 36, 0.2);
+    transition: 0.3s;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 32, 32, 0.2);
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #303031;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.feature {
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.info {
+    width: 35%;
+}
+
+.info h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #303031;
+}
+
+.info p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    color: #303031;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+}
+
+.members {
+    width: 27%;
+    background: #FFFFFF;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    padding: 25px;
+
+}
+
+.div1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.div1 {
+    padding: 5px;
+}
+
+.div1 h5 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #303031;
+    letter-spacing: -0.02em;
+}
+
+.members h2 {
+
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.members img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.jassir {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 15px 0 15px 0;
+}
+
+.members button {
+    background: #303031;
+    border-radius: 16px;
+    width: 100%;
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.task {
+    width: 27%;
+    margin-right: 10px;
+}
+
+.task1 {
+    width: 100%;
+    background: #FFFFFF;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.write {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.write h3 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.write button {
+    border: none;
+    background: #71A894;
+    border-radius: 40px;
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.task1 p {
+    width: 70%;
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.widget {
+    margin-top: 10px;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    width: 90%;
+    padding: 10px;
+    background: #F3F0EA;
+
+}
+
+.widget h5 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.applicants {
+
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.name h4 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.profileimage {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profileimage img {
+    border-radius: 50%;
+    width: 55%;
+    padding: 10px;
+}
+
+.cover {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.profile {
+    width: 99%;
+    background: #FFFFFF;
+    border: 4px solid #71A894;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.profile button {
+    left: calc(50% - 192px/2);
+    bottom: 24px;
+    background: #303031;
+    border: none;
+    height: 30px;
+    color: #FFFFFF;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.profile h5 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.user {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.user img {
+    border-radius: 50%;
+
+}
+
+.user h5 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.user p {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #66645E;
+}
+
+.cards h4,
+.cards h6 {
+    text-align: left;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.date button {
+    background: #71A894;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.date p {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.cards h4 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.cards h6 {
+    font-family: 'Novel Mono Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.button button {
+    background: #303031;
+    border-radius: 8px;
+    color: #FFFFFF;
+    height: 64px;
+    width: 130px;
+    border: none;
+
+}
+
+.grid {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.grid img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+footer h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.04em;
+    color: #303031;
+}
+
+footer .navlink a {
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+
+
+}
